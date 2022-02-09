@@ -20,6 +20,18 @@ blah blah blah
 blah blah blah
 
 ## What is relation of Ogres to OpenC2?
+All command and control over PACE integration bus
+may be performed (i.e. not precluding other methods)
+using OpenC2 commands.
+
+More on OpenC2 can be found
+[here](https://openc2.org/).
+
+One objective of the Ogres work is to assist in the development
+of the necessary OpenC2 commands to meet the usecases desired.
+
+The Ogres codebase includes an OpenC2 API.
+
 blah blah blah
 
 ## What are use cases for Ogres?
@@ -36,3 +48,6 @@ blah blah blah
 
 ## Where can I find SBOMs to use as data for Ogres?
 need to make another repo for this
+
+## What is relation of Ogres to CACAO?
+blah blah
