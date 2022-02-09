@@ -20,3 +20,8 @@ The base software to interface and compare these database types
 is from the book
 
 Editor's note - awaiting permission of author/publisher to include.
+
+See FAQ for more info.
+BTW the reason for putting in FAQ instead of here in README
+is because the FAQ is part of the codebase and will appear
+on Ogre website.
