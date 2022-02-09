@@ -27,7 +27,7 @@ in the following PACE architecture picture:
 ![PACE Arch](./Images/pace_arch_3.png)
 
 Ogre will be instantiated on a cloud server with an
-[OpenC2](https://openc2.org/) interface for the red/blue/violet
+[OpenC2](https://openc2.org/) interface for the red/blue/rose
 PACE interfaces in the above architecture.
 At least initially, Ogres will be a 'monolithic' PACE.
 Whether to break it into separate PCS/PAR/PES is for further study.
