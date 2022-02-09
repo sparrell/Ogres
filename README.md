@@ -32,6 +32,12 @@ PACE interfaces in the above architecture.
 At least initially, Ogres will be a 'monolithic' PACE.
 Whether to break it into separate PCS/PAR/PES is for further study.
 
+The intent for the CAW in June would be for one or more Ogres
+instantiations to interact with
+- other PACE systems
+- "decision making" systems (per [IACD](https://www.iacdautomate.org/) paradigm). Ie the systems following the CACAO playbooks and sending the OpenC2 commands e.g. OIF-Orcestrator by HII.
+- the components whose "posture attributes" is being collected, stored, and evaluated (e.g. blinky, twinkly, yuuki, OIF-device, ...)
+
 See [FAQ](./FAQ.md) for more info about Ogres.
 BTW the reason for putting in FAQ (instead of here in README)
 is because the FAQ is part of the codebase and will appear
