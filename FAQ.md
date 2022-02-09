@@ -11,7 +11,8 @@ just prior to
 [RSAC](https://www.rsaconference.com/usa)
 so results can be used at the
 [Supply Chain Sandbox](https://supplychainsandbox.org/)
-portion of RSAC.
+portion of RSAC as part of
+[QuadBlockQuiz](https://supplychainsandbox.org/quadblocks).
 
 ## What is relation of Ogres to PACE?
 blah blah blah
