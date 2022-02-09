@@ -21,6 +21,15 @@ is from the book
 
 Editor's note - awaiting permission of author/publisher to include.
 
+Ogres is for instantiating "P1"
+in the following PACE architecture picture:
+
+![PACE Arch](./Images/pace_arch_3.png)
+
+Ogre will be instantiated on a cloud server with an
+[OpenC2](https://openc2.org/) interface for the red/blue/violet
+PACE interfaces in the above architecture.
+
 See [FAQ](./FAQ.md) for more info about Ogres.
 BTW the reason for putting in FAQ (instead of here in README)
 is because the FAQ is part of the codebase and will appear
