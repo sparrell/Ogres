@@ -12,3 +12,27 @@ just prior to
 so results can be used at the
 [Supply Chain Sandbox](https://supplychainsandbox.org/)
 portion of RSAC.
+
+## What is relation of Ogres to PACE?
+blah blah blah
+
+## What is relation of Ogres to SBOM?
+blah blah blah
+
+## What is relation of Ogres to OpenC2?
+blah blah blah
+
+## What are use cases for Ogres?
+- PACE-centric uses cases:
+   - https://github.com/opencybersecurityalliance/PACE/blob/main/docs/Pace_Sbom_Vex_Flags_Prioritization/README.md
+   - add
+- OpenC2-centric use cases:
+   - https://github.com/oasis-tcs/openc2-usecases/tree/main/PlugFests/2022-06-RSAC
+   - add
+- CACAO-centric use cases:
+   - add
+- SBOM-centric use cases:
+   - add
+
+## Where can I find SBOMs to use as data for Ogres?
+need to make another repo for this
