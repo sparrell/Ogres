@@ -35,7 +35,7 @@ Whether to break it into separate PCS/PAR/PES is for further study.
 The intent for the CAW in June would be for one or more Ogres
 instantiations to interact with
 - other PACE systems
-- "decision making" systems (per [IACD](https://www.iacdautomate.org/) paradigm). Ie the systems following the CACAO playbooks and sending the OpenC2 commands e.g. OIF-Orcestrator by HII.
+- "decision making" systems (per [IACD](https://www.iacdautomate.org/) paradigm). Ie the systems following the CACAO playbooks and sending the OpenC2 commands e.g. OIF-Orchestrator by HII.
 - the components whose "posture attributes" is being collected, stored, and evaluated (e.g. blinky, twinkly, yuuki, OIF-device, ...)
 
 See [FAQ](./FAQ.md) for more info about Ogres.
