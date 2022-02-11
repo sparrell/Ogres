@@ -18,16 +18,16 @@ One direction of study is which type of graph database
 (LPG, RDF,...) is best, so many types will be incorporated.
 The base software to interface and compare these database types
 is from the book
-
-Editor's note - awaiting permission of author/publisher to include.
+[-Exploring Graphs with Elixir-](https://pragprog.com/titles/thgraphs/exploring-graphs-with-elixir/).
 
 Ogres is for instantiating "P1"
 in the following PACE architecture picture:
 
 ![PACE Arch](./Images/pace_arch_3.png)
 
+For the upcoming Cybersecurity Automation Workshop,
 Ogre will be instantiated on a cloud server with an
-[OpenC2](https://openc2.org/) interface for the red/blue/rose
+[OpenC2](https://openc2.org/) interface for the green/blue/pink
 PACE interfaces in the above architecture.
 At least initially, Ogres will be a 'monolithic' PACE.
 Whether to break it into separate PCS/PAR/PES is for further study.
@@ -35,8 +35,8 @@ Whether to break it into separate PCS/PAR/PES is for further study.
 The intent for the CAW in June would be for one or more Ogres
 instantiations to interact with
 - other PACE systems
-- "decision making" systems (per [IACD](https://www.iacdautomate.org/) paradigm). Ie the systems following the CACAO playbooks and sending the OpenC2 commands e.g. OIF-Orchestrator by HII.
-- the components whose "posture attributes" is being collected, stored, and evaluated (e.g. blinky, twinkly, yuuki, OIF-device, ...)
+- "decision making" systems (per [IACD](https://www.iacdautomate.org/) paradigm). Ie the systems following the CACAO playbooks and sending the OpenC2 commands e.g. OIF-Orchestrator, [Foad](https://github.com/sparrell/Foad), ... .
+- the components whose "posture attributes" are being collected, stored, and evaluated (e.g. blinky, twinkly, yuuki, OIF-device, (https://github.com/sparrell/Foad), ...)
 
 See [FAQ](./FAQ.md) for more info about Ogres.
 BTW the reason for putting in FAQ (instead of here in README)
