@@ -126,3 +126,20 @@ The Oser module in
 [Foad](https://github.com/sparrell/Foad)
 can initialize the various Ogres databases
 with data from Oser for the purpose of evaluation alternatives.
+
+## Can Ogres/Oser/Foad be used to develop playbooks?
+sort of blah blah
+can be used to help understand the security policies
+in light of different situations and postures.
+The examples can be tailored by the user
+both to help develop their polices and to inform their CACAO
+playbook creation.
+
+These systems do not actually create playbooks, nor do they
+parse CACAO playbooks.
+The examples in Foad are "hard coded" for the purpose of
+evaluating Ogres -
+i.e. if you change the CACAO playbook, you need to change the
+Foad software accordingly.
+Actual SOAR systems (ie without the "F" for "fake" of FOAD)
+would parse the CACAO playbooks and act accordingly.
