@@ -98,6 +98,19 @@ CACAO playbooks that make use of PACE.
 See {fill in from FOAD} for sample implementations
 of some of those playbooks for evaluation purposes.
 
+For example, Figure 1 below is one scenario containing
+many CACAO interconnected playbooks.
+The four colored playbooks
+are all playbooks making use of posture attributes:
+- Green SBOM Status
+   + The CACAO playbook is {fillinhere} and a sample implementation is {fillinhere} and the interaction with PACE is shown in Figure 2 below
+- Blue VEX Status
+   +
+- Purple Product Status
+   +
+- Not_Affected_Flags
+   +
+
 For example, the {fill in} CACAO playbook is
 the {which part - color it?} segment
 of the scenario:
