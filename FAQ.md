@@ -15,7 +15,32 @@ portion of RSAC as part of
 [QuadBlockQuiz](https://supplychainsandbox.org/quadblocks).
 
 ## What is relation of Ogres to PACE?
-blah blah blah
+Ogres is for instantiating "P1"
+in the following PACE architecture picture:
+
+![PACE Arch](./Images/pace_arch_3.png)
+
+It will be used to evaluate different
+PAR implementations (eg using a graph database,
+which type of graph database, etc)
+including differing
+schemes and schemas.
+It can be used for storing:
+- SBOM data
+- VEX data
+- vulnerability data
+- other ancillary data
+
+In addition various ways to find and collect SBOMS/...
+can be evaluated such as from:
+- public URL's
+- MUD
+- OpenC2
+- STIX
+- private API's (eg behind authentication and/or using "shifters/lycans")
+
+Ogres will also be used as a PES to study
+evaluation algorithms and implementations.
 
 ## What is relation of Ogres to SBOM?
 blah blah blah
@@ -48,7 +73,56 @@ blah blah blah
    - add
 
 ## Where can I find SBOMs to use as data for Ogres?
-need to make another repo for this
+The [Ogres Sbom Examples Repo](https://github.com/sparrell/Oser) (OSER) repo
+contains a collection of SBOMs that can be used as sample data.
+
+The Oser module in Ogres can initialize the various Ogres databases
+with data from Oser for the purpose of evaluation alternatives.
+
+## What is relation of Ogres to Oser?
+The [Ogres Sbom Examples Repo](https://github.com/sparrell/Oser) (OSER) repo
+contains a collection of SBOMs that can be used as sample data.
+
+The Oser module in
+[Foad](https://github.com/sparrell/Foad)
+can initialize the various Ogres databases
+with data from Oser for the purpose of evaluation alternatives.
 
 ## What is relation of Ogres to CACAO?
-blah blah
+Ogres is just a PACE implementation,
+and as such, just another security device
+to be included in CACAO playbooks.
+
+See {fill in from Pace usecases} for example
+CACAO playbooks that make use of PACE.
+See {fill in from FOAD} for sample implementations
+of some of those playbooks for evaluation purposes.
+
+For example, the {fill in} CACAO playbook is
+the {which part - color it?} segment
+of the scenario:
+
+![scenario](./Images/IIID03.png)
+
+And {fill in from Foad} is a sample implementation of that playbook.
+
+Editor's note: Ideally color code sections of scenario showing several
+CACAO playbooks and sample implementations.
+
+Editor's note: Ideally have sample implementations from several
+projects/vendors - both commercial and open source.
+
+## What is the relation of Ogres to Foad?
+The [Fake Orchestrator, Actuators, Decision-makers](https://github.com/sparrell/Foad)
+(FOAD) repo contains software to simulate
+the orchestrators that direct Ogres
+and the devices that Ogres is collection/storing/evaluating the
+posture attributes of.
+
+## What can I use to evaluate Ogres architecture/schema alternatives?
+The [Ogres Sbom Examples Repo](https://github.com/sparrell/Oser) (OSER) repo
+contains a collection of SBOMs that can be used as sample data.
+The Oser module in
+[Foad](https://github.com/sparrell/Foad)
+can initialize the various Ogres databases
+with data from Oser for the purpose of evaluation alternatives.
