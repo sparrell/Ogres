@@ -11,8 +11,8 @@ and the study of using graph databases for the storage
 and evaluation of
 [Software Bill of Materials](https://www.cisa.gov/sbom)
 (SBOM).
-Some example use cases can be found
-[here](https://github.com/opencybersecurityalliance/PACE/blob/main/docs/Pace_Sbom_Vex_Flags_Prioritization/README.md).
+Some example use cases can be found in
+[this FAQ question](https://github.com/sparrell/Ogres/blob/main/FAQ.md#what-are-use-cases-for-ogres).
 
 One direction of study is which type of graph database
 (LPG, RDF,...) is best, so many types will be incorporated.
