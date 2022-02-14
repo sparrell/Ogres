@@ -76,7 +76,9 @@ blah blah blah
 The [Ogres Sbom Examples Repo](https://github.com/sparrell/Oser) (OSER) repo
 contains a collection of SBOMs that can be used as sample data.
 
-The Oser module in Ogres can initialize the various Ogres databases
+The Oser module in
+[Foad](https://github.com/sparrell/Foad)
+can initialize the various Ogres databases
 with data from Oser for the purpose of evaluation alternatives.
 
 ## What is relation of Ogres to Oser?
